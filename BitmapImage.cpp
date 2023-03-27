@@ -20,6 +20,10 @@ bool BitmapImage::save(std::string name) {
     return true;
 }
 
+bool BitmapImage::save(int width, int height) {
+    return true;
+}
+
 
 BitmapImage::~BitmapImage() {
     delete[] buffer;
